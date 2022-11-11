@@ -64,5 +64,12 @@ In this example pid1 pid2 variables belong to main process are equal to child pr
 
 ### Projects Description
 - It's asked to write a program that creates two child processes and then that child process creates two child processes too. And lastly, these child processes creates two child processes. In other words, after the execution of the program there would be a main processes and it's two childs and these two child's have four childs and lastly these four child processes have eight childs. 
-To draw it out:
+
+**To picturize it:**
 ![](./Img/3.bmp)
+
+- Every process should create a fill in it's own PID.
+- Every third child processes should generate random numbers and should write these numbers in their files.
+- Each process is expected to read its child's file and write the sum of its numbers in its own file.
+
+### The Solution
