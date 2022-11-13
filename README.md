@@ -71,5 +71,3 @@ In this example pid1 pid2 variables belong to main process are equal to child pr
 - Every process should create a fill in it's own PID.
 - Every third child processes should generate random numbers and should write these numbers in their files.
 - Each process is expected to read its child's file and write the sum of its numbers in its own file.
-
-### The Solution
